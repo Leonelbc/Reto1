@@ -1,0 +1,52 @@
+body{
+    background-color: #f1f1f1;
+    display: flex;
+    min-height: 100vh;
+}
+
+.formulario{
+    background-color: #fff;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.formulario_titulo{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.formulario_parrafo{
+    font-size: 18px;
+    font-weight: 30;    
+}
+
+.formulario_contenedor{
+    margin-top: 20px;
+    display: grid;
+    gap: 13px;
+}
+
+.formulario_grupo{
+    position: relative;
+
+}
+
+.form_input{
+    width 100%;
+    font-size: 18px;
+    padding: 15px 20px;
+    
+}
+
+.submit{
+    width: 100px;
+    padding: 10px;
+    background: rgb(5, 146, 5);
+    font-size: 18px;
+    color: #fff;
+      
+}    
